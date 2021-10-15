@@ -10,3 +10,6 @@ var lastName = "Lovelace";
 
 // Only change code below this line
 var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+// Only change code below this line
+var myArray = ["peanut butter" , 0];
