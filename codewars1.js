@@ -18,3 +18,7 @@ function plus(r) { return function (l) { return l + r; }; }
 function minus(r) { return function (l) { return l - r; }; }
 function times(r) { return function (l) { return l * r; }; }
 function dividedBy(r) { return function (l) { return l / r; }; }
+
+function domainName(url){
+   return url.replace(/(http(s)?:\/\/(www.)?)|(www.)/, "").replace(/\..*/, "");
+ }
